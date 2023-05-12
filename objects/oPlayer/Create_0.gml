@@ -1,5 +1,4 @@
-// Inherit the parent event 
-// Ele herdou os parametros definidos no entitie
+// Inherit the parent event
 event_inherited();
 
 //Vida do Player
@@ -11,7 +10,7 @@ maxhspeed = 4;
 maxvspeed = 4;
 
 //Massa do Player
-mass = 3;
+mass = 1;
 
 //Ataque do Player
 atk = 5;

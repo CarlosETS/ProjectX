@@ -1,8 +1,10 @@
+event_inherited();
+
 // Iniciando variaveis
 var right = keyboard_check(ord("D"));
 var left = keyboard_check(ord("A"));
 var jump = keyboard_check(vk_space);
-var wall = place_meeting(x, y+1, oColision);
+var wall = place_meeting(x,y+1,oColision);
 
 //Movimentação para esquerda e direita
 hspeed = (right - left) * maxhspeed;
@@ -14,6 +16,11 @@ if(hspeed != 0){
 }
 
 //Gravidade
-if (!wall){
-	vspeed += GRAVITY * mass;
+if(!wall){
+	vspeed += GRAVITY *mass;
+}
+
+//Pulo
+if(wall and jump){
+	vspeed -=8;
 }

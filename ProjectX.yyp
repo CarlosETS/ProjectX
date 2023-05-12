@@ -34,11 +34,11 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"oEntitie","path":"objects/oEntitie/oEntitie.yy",},},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oColision","path":"objects/oColision/oColision.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
-    {"id":{"name":"oEntitie","path":"objects/oEntitie/oEntitie.yy",},},
     {"id":{"name":"scp_ini","path":"scripts/scp_ini/scp_ini.yy",},},
-    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

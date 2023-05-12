@@ -18,7 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oEntitie","order":2,"path":"objects/oEntitie/oEntitie.yy",},
-    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"sFloor","order":1,"path":"sprites/sFloor/sFloor.yy",},
   ],
 }

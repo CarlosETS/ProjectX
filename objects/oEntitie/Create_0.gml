@@ -1,19 +1,16 @@
-//Todos os valores vão ser alterados conforme a entidade que iremos criar
-//Esses são apenas valores iniciais padrão para todos para facilitar um pouco o trabalho
-
-//Vida das entidades
+//Vida padrão das entidades
 maxlife = 1;
 life = maxlife;
 
-//Velocidade das entidades
-vspeed = 0;
+//Velocidade padrão das entidades
 hspeed = 0;
-maxhspeed = 1;
-maxvspeed = 1;
+vspeed = 0;
 
-//Massa das entidades
-mass = 1;
+maxhspeed = 3;
+maxvspeed = 3;
 
-//Ataque das entidades
-atk = 2;
+//Massa padrão das entidades
+mass =1;
 
+//Ataque padrão das entidade
+atk = 1;
