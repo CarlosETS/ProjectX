@@ -1,20 +1,20 @@
-var _hsp = sign(hspeed);
-var _vsp = sign(vspeed);
+var _hsp = sign(hsp);
+var _vsp = sign(vsp);
 
 //Colisão horisontal
-if(place_meeting(x+hspeed,y,oColision)){
+if(place_meeting(x+hsp,y,oColision)){
 	while(!place_meeting(x+_hsp,y,oColision)){
 		x += _hsp;
 	}
-	hspeed = 0;
+	hsp = 0;
 }
-x += hspeed;
+x += hsp;
 
 //Colisão Vetical
-if(place_meeting(x,y+vspeed,oColision)){
+if(place_meeting(x,y+vsp,oColision)){
 	while(!place_meeting(x,y+_vsp,oColision)){
 		y += _vsp;
 	}
-	vspeed = 0;
+	vsp = 0;
 }
-y += vspeed;
+y += vsp;
