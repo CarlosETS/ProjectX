@@ -1,26 +1,25 @@
 event_inherited();
 
 // Iniciando variaveis
-var right = keyboard_check(ord("D"));
-var left = keyboard_check(ord("A"));
-var jump = keyboard_check(vk_space);
-var wall = place_meeting(x,y+1,oColision);
+right = keyboard_check(ord("D"));
+left = keyboard_check(ord("A"));
+jump = keyboard_check(vk_space);
+wall = place_meeting(x,y+1,oColision);
 
 //Movimentação para esquerda e direita
-hspeed = (right - left) * maxhspeed;
+hsp = (right - left) * maxhspeed;
 
 //Fazer o player olhar na direção que esta andando
-if(hspeed != 0){
-	xscale = sign(hspeed);
-	image_xscale = xscale;
+if(hsp != 0){
+	image_xscale = sign(hsp);
 }
 
 //Gravidade
 if(!wall){
-	vspeed += GRAVITY *mass;
+	vsp += GRAVITY * mass;
 }
 
 //Pulo
 if(wall and jump){
-	vspeed -=8;
+	vsp -=12;
 }

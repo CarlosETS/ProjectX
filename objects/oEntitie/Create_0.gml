@@ -3,8 +3,8 @@ maxlife = 1;
 life = maxlife;
 
 //Velocidade padrão das entidades
-hspeed = 0;
-vspeed = 0;
+hsp = 0;
+vsp = 0;
 
 maxhspeed = 3;
 maxvspeed = 3;
