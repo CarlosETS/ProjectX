@@ -3,7 +3,7 @@ event_inherited();
 
 //Vida do Player
 maxlife = 5;
-life = maxlife;
+global.life = maxlife;
 
 //Velocidade do Player
 maxhspeed = 4;
